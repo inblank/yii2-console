@@ -1,0 +1,31 @@
+{
+    "name": "inblank/yii2-console",
+    "license": "MIT",
+    "description": "Console helpers for Yii2 app",
+    "keywords": [
+    ],
+    "type": "library",
+    "require": {
+        "php": "~7.4",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.5.0",
+        "roave/security-advisories": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "inblank\\yii2\\console\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
